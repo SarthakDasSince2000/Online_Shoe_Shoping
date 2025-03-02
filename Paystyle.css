@@ -1,0 +1,94 @@
+/*------payment---------*/
+*{
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.conter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #30302d 60%, #393d3b 40.1%);
+    padding-bottom: 70px;
+}
+
+.conter form{
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.conter form .roe{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.conter form .roe .colm{
+    flex: 1 1 250px;
+}
+
+.conter form .roe .colm .titl{
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.conter form .roe .colm .inpubox{
+    margin: 15px 0;
+}
+
+.conter form .roe .colm .inpubox span{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.conter form .roe .colm .inpubox input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+.conter form .roe .colm .inpubox input:focus{
+
+    border: 1px solid #000;
+}
+
+.conter form .roe .colm .flexx{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.conter form .roe .colm .flexx .inpubox{
+    margin-top: 5px;
+}
+
+.conter form .roe .colm .inpubox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+.conter form .submt{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #27ae60;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.conter form .submt:hover{
+    background: #2ecc71;
+}

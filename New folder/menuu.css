@@ -1,0 +1,40 @@
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    float: left;
+    position: relative;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover > a {
+    background-color: #f2f2f2;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1;
+  }
+  
+  .dropdown-menu li {
+    display: block;
+  }
+  
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  
